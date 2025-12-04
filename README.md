@@ -2,7 +2,6 @@
 
 A modern Python application that scrapes listing data (books, products, real estate like card layouts), analyzes listing quality, stores results in SQLite, and displays everything in a clean Tkinter GUI.  
 
-Bu proje Selenium + BeautifulSoup + SQLite + OOP + Tkinter + Threading ile tam bir “modern Python uygulaması” örneğidir.
 
 ## 🚀 Features
 
