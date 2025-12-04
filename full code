@@ -20,9 +20,7 @@ logging.basicConfig(filename='scraper.log', level=logging.INFO,
                     format='%(asctime)s [%(levelname)s]: %(message)s')
 
 
-# ------------------------------
-# MODELS
-# ------------------------------
+
 class BaseModel:
     """Base class with unique ID."""
     def __init__(self):
@@ -45,9 +43,7 @@ class Listing(BaseModel):
         return f"Title: {self.title}, Price: {self.price}, Images: {len(self.images)}"
 
 
-# ------------------------------
-# SCORER
-# ------------------------------
+
 class AbstractScorer(ABC):
     """Interface for scoring a listing."""
     @abstractmethod
@@ -156,9 +152,6 @@ class Database(BaseModel):
             logging.error(f"DB INSERT ERROR: {e}, Data: {data}")
 
 
-# ------------------------------
-# APP / GUI
-# ------------------------------
 class App:
     def __init__(self, root):
         self.root = root
