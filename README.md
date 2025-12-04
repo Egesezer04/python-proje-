@@ -147,6 +147,8 @@ python app.py
 - Google Chrome (latest)
 - Python 3.10 / Python 3.11
 
+## 🎥 Demo
+
 
 
 
