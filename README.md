@@ -51,15 +51,16 @@ Bu proje Selenium + BeautifulSoup + SQLite + OOP + Tkinter + Threading ile tam b
 - Background scraping using a worker thread  
 - Completely responsive GUI (no freezing)  
 
-## 🧱 Project Architecture Overview
+## 🏗️ Project Architecture Overview
 
 /project
-│── app.py # Main Tkinter GUI application
-│── models.py # BaseModel & Listing
-│── scorer.py # Scoring interface + QualityScorer
-│── scraper.py # Selenium + BeautifulSoup scraper logic
-│── database.py # SQLite operations
-│── README.md # This file
+│── app.py        # Main Tkinter App
+│── scraper.py    # Selenium + BS4 logic
+│── models.py     # BaseModel & Listing
+│── scorer.py     # AbstractScorer & QualityScorer
+│── database.py   # SQLite handler
+│── README.md     # This file
+
 
 **Main Components**
 
