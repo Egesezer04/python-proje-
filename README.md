@@ -22,6 +22,7 @@ Bu proje Selenium + BeautifulSoup + SQLite + OOP + Tkinter + Threading ile tam b
 - Listing – A unified listing/item structure (title, price, description, images)  
 
 **Scoring System**
+
 - AbstractScorer – Enforced interface for all scoring algorithms  
 - QualityScorer – Full quality scoring based on:  
   - Title  
@@ -50,7 +51,7 @@ Bu proje Selenium + BeautifulSoup + SQLite + OOP + Tkinter + Threading ile tam b
 - Background scraping using a worker thread  
 - Completely responsive GUI (no freezing)  
 
-## 🏗️ Project Architecture Overview
+## 🧱 Project Architecture Overview
 
 ```text
 /project
